@@ -49,5 +49,46 @@
                 }
             }
         }
+        #exp-years{
+            .container{
+                ul{
+                    li{
+                        width: 100%;
+                    }
+                }
+            }
+        }
+        #work{
+            .container{
+                border-bottom: 1px solid 
+                    #f3c2a8;
+                .work-container{
+                    display: flex;
+                    flex-direction: column;
+                    .left-part{
+                        width: 100%;
+                    }
+                    .right-part{
+                        width: 100%;
+                    }
+                }
+            }
+        }
+        #video{
+            .container{
+                .video-container{
+                    display: flex;
+                    flex-direction: column;
+                    .video{
+                        #main-pic{
+                            width: 100%;
+                        }
+                        #play{
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
     }
 }

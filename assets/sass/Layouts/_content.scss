@@ -93,4 +93,107 @@ main{
             }
         }
     }
+    #work{
+        padding: 100px 20px;
+        background-color: #f8e2d6;
+        .container{
+            margin: 0 auto;
+            max-width: 1200px;
+            width: 100%;
+            .work-container{
+                display: flex;
+                justify-content: space-between;
+                .left-part{
+                    width: 50%;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 30px;
+                    h5{
+                        font-family: 'Epilogue', sans-serif;
+                        color: orangered;
+                        letter-spacing: 3px;
+                        font-size: 16px;
+                    }
+                    h3{
+                        font-family: Arial, Helvetica, sans-serif;
+                        font-weight: 800;
+                        font-size: 40px;
+                        color: #391400;
+                    }
+                    p{
+                        color: #391400;
+                        font-size: 16px;
+                        font-family: 'Epilogue', sans-serif;
+                    }
+                    a{
+                        color: black;
+                        font-family: 'Epilogue', sans-serif;
+                    }
+                }
+                .right-part{
+                    .right-part-box{
+                        display: flex;
+                        align-items: center;
+                        gap: 20px;
+                        color: #391400;
+                        // font-family: 'Epilogue', sans-serif;
+                        font-family: Arial, Helvetica, sans-serif;
+                        h1{
+                            font-weight: 800;
+                            font-size: 72px;
+                        }
+                        h4{
+                            font-weight: 800;
+                            font-size: 24px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    #video{
+        padding: 80px 20px;
+        background-color: #f8e2d6;
+        .container{
+            margin: 0 auto;
+            max-width: 1200px;
+            width: 100%;
+            .video-container{
+                display: flex;
+                gap: 100px;
+                align-items: center;
+                .video{
+                    position: relative;
+                    #play{
+                        position: absolute;
+                        top: 100px;
+                        z-index: 1;
+                        left: 200px;
+                    }
+                }
+                .reel{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 30px;
+                    h5{
+                        color: orangered;
+                        letter-spacing: 3px;
+                        font-family: 'Epilogue', sans-serif;
+                        font-size: 16px;
+                    }
+                    h3{
+                        font-family: Arial, Helvetica, sans-serif;
+                        font-weight: 800;
+                        font-size: 40px;
+                        color: #391400;
+                    }
+                    p{
+                        color: #391400;
+                        font-size: 16px;
+                        font-family: 'Epilogue', sans-serif;
+                    }
+                }
+            }
+        }
+    }
 }
