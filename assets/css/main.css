@@ -1,0 +1,256 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+header {
+  background-color: #32334C;
+}
+header nav {
+  font-family: "Epilogue", sans-serif;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+}
+header nav .container .nav-container {
+  margin: 0 auto;
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header nav .container .nav-container .nav-container-title {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  cursor: pointer;
+}
+header nav .container .nav-container .nav-container-list ul {
+  width: 600px;
+  display: flex;
+  justify-content: space-between;
+}
+header nav .container .nav-container .nav-container-list ul li {
+  cursor: pointer;
+}
+header nav .container .nav-container .contact-btn button {
+  background-color: #32334C;
+  border: 2px solid gray;
+  border-radius: 5px;
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+header nav .container .nav-container .menu-icon {
+  display: none;
+}
+header nav .container .nav-container .menu-icon i {
+  border: 2px solid gray;
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: 300ms;
+}
+header .resp-list {
+  font-family: "Epilogue", sans-serif;
+  margin: 0 auto;
+  max-width: 1200px;
+  height: 0;
+  overflow: hidden;
+}
+header .resp-list ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+header .resp-list ul li {
+  cursor: pointer;
+}
+header #landing {
+  font-family: "Epilogue", sans-serif;
+  padding-top: 80px;
+}
+header #landing .container .landing-container {
+  margin: 0 auto;
+  max-width: 1200px;
+  width: 100%;
+  display: flex;
+}
+header #landing .container .landing-container .left-part {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+header #landing .container .landing-container .left-part #modern {
+  width: 157px;
+  height: 32px;
+}
+header #landing .container .landing-container .left-part #build {
+  width: 513px;
+  height: 240px;
+}
+header #landing .container .landing-container .left-part #resp-text {
+  display: none;
+  width: 329px;
+  height: 256px;
+}
+header #landing .container .landing-container .left-part .text {
+  color: gray;
+  font-weight: bold;
+}
+header #landing .container .landing-container .left-part .btns {
+  margin-bottom: 60px;
+}
+header #landing .container .landing-container .left-part .btns button {
+  border: none;
+  background-color: orangered;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+header #landing .container .landing-container .left-part .btns a {
+  color: #fff;
+}
+header #landing .container .landing-container .left-part .person-info {
+  display: flex;
+  align-items: center;
+}
+header #landing .container .landing-container .left-part .person-info p {
+  color: white;
+}
+
+main #companies {
+  padding: 0 20px;
+  height: 200px;
+  background-color: #f8e2d6;
+  display: flex;
+  align-items: center;
+}
+main #companies .container {
+  margin: 0 auto;
+  max-width: 1200px;
+  width: 100%;
+}
+main #companies .container ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+main #experience {
+  padding: 100px 20px;
+  background-color: #f8e2d6;
+}
+main #experience .container {
+  margin: 0 auto;
+  max-width: 1200px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 80px;
+}
+main #experience .container .right-part {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 40px;
+}
+main #experience .container .right-part h5 {
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 3px;
+}
+main #experience .container .right-part h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50px;
+  font-weight: 800;
+}
+main #experience .container .right-part .big-text {
+  font-family: "Epilogue", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: black;
+}
+main #experience .container .right-part p {
+  font-family: "Epilogue", sans-serif;
+  color: gray;
+}
+main #experience .container .right-part button {
+  border: none;
+  background-color: white;
+  padding: 10px 20px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+main #exp-years {
+  padding: 100px 20px;
+  background-color: #f8e2d6;
+}
+main #exp-years .container {
+  margin: 0 auto;
+  max-width: 1200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main #exp-years .container ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+main #exp-years .container ul li {
+  border: 1px solid black;
+  width: 391px;
+  height: 176px;
+  padding: 20px;
+  border: 1px solid #F3D1BF;
+}
+main #exp-years .container ul li h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  font-weight: 800;
+}
+main #exp-years .container ul li p {
+  font-family: "Epilogue", sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+  header nav {
+    padding: 0 20px;
+  }
+  header nav .container .nav-container .nav-container-list {
+    display: none;
+  }
+  header nav .container .nav-container .contact-btn {
+    display: none;
+  }
+  header nav .container .nav-container .menu-icon {
+    display: block;
+  }
+  header #landing {
+    padding: 30px 20px;
+  }
+  header #landing .container .landing-container {
+    flex-direction: column-reverse;
+  }
+  header #landing .container .landing-container .left-part #build {
+    display: none;
+  }
+  header #landing .container .landing-container .left-part #resp-text {
+    display: inline;
+  }
+  header #landing .container .landing-container .right-part img {
+    width: 100%;
+  }
+  main #experience .container {
+    flex-direction: column;
+  }
+  main #experience .container .left-part img {
+    width: 100%;
+  }
+}/*# sourceMappingURL=main.css.map */

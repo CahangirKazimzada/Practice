@@ -1,0 +1,53 @@
+@media screen and (max-width:768px){
+    header{
+        nav{
+            padding: 0 20px;
+            .container{
+                .nav-container{
+                    .nav-container-list{
+                        display: none;
+                    }
+                    .contact-btn{
+                        display: none;
+                    }
+                    .menu-icon{
+                        display: block;
+                    }
+                }
+            }
+        }
+        #landing{
+            padding: 30px 20px;
+            .container{
+                .landing-container{
+                    flex-direction: column-reverse;
+                    .left-part{
+                        #build{
+                            display: none;
+                        }
+                        #resp-text{
+                            display: inline;
+                        }
+                    }
+                    .right-part{
+                        img{
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    main{
+        #experience{
+            .container{
+                flex-direction: column;
+                .left-part{
+                    img{
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}
