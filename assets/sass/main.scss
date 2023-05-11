@@ -1,6 +1,7 @@
-@import "./Reset/reset";
+@import "./base/reset";
+@import "./Pages/landing-page";
 @import "./Layouts/navbar";
 @import "./Layouts/content";
 @import "./Layouts/footer";
-@import "./Responsive/responsive";
+@import "./Layouts/responsive";
 

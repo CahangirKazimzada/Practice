@@ -176,5 +176,32 @@
                 }
             }
         }
+        #start{
+            .container{
+                .start-container{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 60px;
+                    .sun-pic{
+                        img{
+                            width: 100%;
+                        }
+                    }
+                    .girl-pic{
+                        position: relative;
+                        .girl{
+                            height: 317px;
+                            width: 191px;
+                            position: absolute;
+                            left: 40px;
+                        }
+                        .path{
+                            width: 226px;
+                            height: 194px;
+                        }
+                    }
+                }
+            }
+        }
     }
 }
