@@ -147,5 +147,34 @@
                 }
             }
         }
+        #portfolio{
+            .container{
+                margin: 0 auto;
+                max-width: 1200px;
+                .portfolio-container{
+                    .portfolio-container-title{
+                        ul{
+                            display: none;
+                        }
+                        select{
+                            display: block;
+                            height: 40px;
+                            border-radius: 5px;
+                        }
+                    }
+                    .portfolio-container-pics{
+                        .line{
+                            display: flex;
+                            flex-direction: column;
+                        }
+                        .box{
+                            img{
+                                width: 100%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
     }
 }

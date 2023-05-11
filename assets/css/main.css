@@ -510,6 +510,72 @@ main #service .container .service-container .service-container-cards .cards .car
   width: 20px;
   height: 20px;
 }
+main #portfolio {
+  padding: 50px 20px;
+  background-color: #3A3C56;
+  color: white;
+}
+main #portfolio .container {
+  margin: 0 auto;
+  max-width: 1200px;
+  width: 100%;
+}
+main #portfolio .container .portfolio-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+main #portfolio .container .portfolio-container .portfolio-container-title {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+main #portfolio .container .portfolio-container .portfolio-container-title h5 {
+  font-family: "Epilogue", sans-serif;
+  letter-spacing: 5px;
+}
+main #portfolio .container .portfolio-container .portfolio-container-title h2 {
+  font-weight: 800;
+  font-size: 56px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+main #portfolio .container .portfolio-container .portfolio-container-title ul {
+  display: flex;
+  gap: 60px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+main #portfolio .container .portfolio-container .portfolio-container-title ul li a {
+  color: gray;
+  font-size: 14px;
+}
+main #portfolio .container .portfolio-container .portfolio-container-title select {
+  display: none;
+}
+main #portfolio .container .portfolio-container .portfolio-container-pics {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+main #portfolio .container .portfolio-container .portfolio-container-pics .line {
+  display: flex;
+  gap: 15px;
+}
+main #portfolio .container .portfolio-container .portfolio-container-btn {
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main #portfolio .container .portfolio-container .portfolio-container-btn button {
+  border: 1px solid rgba(255, 255, 255, 0.2941176471);
+  background-color: #3A3C56;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
 
 @media screen and (max-width: 768px) {
   header nav {
@@ -603,5 +669,24 @@ main #service .container .service-container .service-container-cards .cards .car
   main #service .container .service-container .service-container-cards .cards {
     display: flex;
     flex-direction: column;
+  }
+  main #portfolio .container {
+    margin: 0 auto;
+    max-width: 1200px;
+  }
+  main #portfolio .container .portfolio-container .portfolio-container-title ul {
+    display: none;
+  }
+  main #portfolio .container .portfolio-container .portfolio-container-title select {
+    display: block;
+    height: 40px;
+    border-radius: 5px;
+  }
+  main #portfolio .container .portfolio-container .portfolio-container-pics .line {
+    display: flex;
+    flex-direction: column;
+  }
+  main #portfolio .container .portfolio-container .portfolio-container-pics .box img {
+    width: 100%;
   }
 }/*# sourceMappingURL=main.css.map */
