@@ -318,6 +318,111 @@ main #video .container .video-container .reel p {
   font-size: 16px;
   font-family: "Epilogue", sans-serif;
 }
+main #features {
+  padding: 80px 20px;
+  background-color: #f8e2d6;
+}
+main #features .container {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+main #features .container .features-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+main #features .container .features-container .left-part {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+main #features .container .features-container .left-part h5 {
+  color: orangered;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 3px;
+}
+main #features .container .features-container .left-part h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 800;
+  font-size: 56px;
+}
+main #features .container .features-container .left-part .big-text {
+  font-family: "Epilogue", sans-serif;
+  color: #391400;
+}
+main #features .container .features-container .left-part .check-list .check-boxes {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+main #features .container .features-container .left-part .check-list .check-boxes img {
+  width: 25px;
+  height: 25px;
+}
+main #features .container .features-container .left-part .check-list .check-boxes p {
+  font-family: "Epilogue", sans-serif;
+  color: #391400;
+  font-size: 13px;
+}
+main #feature-content {
+  padding: 80px 20px;
+  background-color: #f8e2d6;
+}
+main #feature-content .container {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+main #feature-content .container .content-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main #feature-content .container .content-container .left {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+main #feature-content .container .content-container .left h5 {
+  color: orangered;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 3px;
+}
+main #feature-content .container .content-container .left .big-text {
+  font-family: "Epilogue", sans-serif;
+  color: #391400;
+}
+main #feature-content .container .content-container .left a {
+  color: #391400;
+  font-family: Arial, Helvetica, sans-serif;
+}
+main #feature-content .container .content-container .cards {
+  display: flex;
+}
+main #feature-content .container .content-container .cards .card-box {
+  width: 336px;
+  height: 272px;
+  border: 1px solid #F3D1BF;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  padding: 0 30px;
+  transition: 500ms;
+}
+main #feature-content .container .content-container .cards .card-box:hover {
+  height: 336px;
+  background-color: white;
+}
+main #feature-content .container .content-container .cards .card-box h4 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+}
+main #feature-content .container .content-container .cards .card-box p {
+  font-family: "Epilogue", sans-serif;
+  color: #391400;
+}
 
 @media screen and (max-width: 768px) {
   header nav {
@@ -343,6 +448,7 @@ main #video .container .video-container .reel p {
   }
   header #landing .container .landing-container .left-part #resp-text {
     display: inline;
+    width: 100%;
   }
   header #landing .container .landing-container .right-part img {
     width: 100%;
@@ -378,5 +484,11 @@ main #video .container .video-container .reel p {
   }
   main #video .container .video-container .video #play {
     display: none;
+  }
+  main #features .container .features-container {
+    flex-direction: column;
+  }
+  main #features .container .features-container .right-part img {
+    width: 100%;
   }
 }

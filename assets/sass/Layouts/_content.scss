@@ -196,4 +196,111 @@ main{
             }
         }
     }
+    #features{
+        padding: 80px 20px;
+        background-color: #f8e2d6;
+        .container{
+            margin: 0 auto;
+            max-width: 1200px;
+            .features-container{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                .left-part{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 30px;
+                    h5{
+                        color: orangered;
+                        font-family: Arial, Helvetica, sans-serif;
+                        letter-spacing: 3px;
+                    }
+                    h2{
+                        font-family: Arial, Helvetica, sans-serif;
+                        font-weight: 800;
+                        font-size: 56px;
+                    }
+                    .big-text{
+                        font-family: 'Epilogue', sans-serif;
+                        color: #391400;
+                    }
+                    .check-list{
+                        .check-boxes{
+                            display: flex;
+                            align-items: center;
+                            gap: 15px;
+                            margin-bottom: 15px;
+                            img{
+                                width: 25px;
+                                height: 25px;
+                            }
+                            p{
+                                font-family: 'Epilogue', sans-serif;
+                                color: #391400;
+                                font-size: 13px
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    #feature-content{
+        padding: 80px 20px;
+        background-color: #f8e2d6;
+        .container{
+            margin: 0 auto;
+            max-width: 1200px;
+            .content-container{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                .left{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 20px;
+                    h5{
+                        color: orangered;
+                        font-family: Arial, Helvetica, sans-serif;
+                        letter-spacing: 3px;
+                    }
+                    .big-text{
+                        font-family: 'Epilogue', sans-serif;
+                        color: #391400;
+                    }
+                    a{
+                        color: #391400;
+                        font-family: Arial, Helvetica, sans-serif;
+                    }
+                }
+                .cards{
+                    display: flex;
+                    .card-box{
+                        width: 336px;
+                        height: 272px;
+                        border: 1px solid #F3D1BF;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        gap: 20px;
+                        padding: 0 30px;
+                        transition: 500ms;
+                        &:hover{
+                            height: 336px;
+                            background-color: white;
+                        }
+                        h4{
+                            font-family: Arial, Helvetica, sans-serif;
+                            font-weight: 700;
+                            font-size: 24px;
+                        }
+                        p{
+                            font-family: 'Epilogue', sans-serif;
+                            color: #391400;
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
