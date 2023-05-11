@@ -24,7 +24,7 @@ main{
         .container{
             margin: 0 auto;
             max-width: 1200px;
-            width: 100%;
+            // width: 100%;
             display: flex;
             align-items: center;
             gap: 80px;
@@ -41,6 +41,7 @@ main{
                     font-family: Arial, Helvetica, sans-serif;
                     font-size: 50px;
                     font-weight: 800;
+                    width: 100%;
                 }
                 .big-text{
                     font-family: 'Epilogue', sans-serif;
@@ -276,8 +277,8 @@ main{
                 .cards{
                     display: flex;
                     .card-box{
-                        width: 336px;
                         height: 272px;
+                        padding: 500px;
                         border: 1px solid #F3D1BF;
                         display: flex;
                         flex-direction: column;
@@ -285,10 +286,6 @@ main{
                         gap: 20px;
                         padding: 0 30px;
                         transition: 500ms;
-                        &:hover{
-                            height: 336px;
-                            background-color: white;
-                        }
                         h4{
                             font-family: Arial, Helvetica, sans-serif;
                             font-weight: 700;
@@ -297,6 +294,101 @@ main{
                         p{
                             font-family: 'Epilogue', sans-serif;
                             color: #391400;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    #service-title{
+        padding: 80px 20px;
+        background-color: #f8e2d6;
+        .container{
+            margin: 0 auto;
+            max-width: 1200px;
+            .service-title-container{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                gap: 20px;
+                .right-part{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    gap: 30px;
+                    h5{
+                        color: orangered;
+                        font-family: Arial, Helvetica, sans-serif;
+                        letter-spacing: 3px;
+                    }
+                    h2{
+                        font-family: Arial, Helvetica, sans-serif;
+                        font-weight: 800;
+                        font-size: 56px;
+                        color: #391400;
+                    }
+                    .big-text{
+                        font-family: 'Epilogue', sans-serif;
+                        color: #391400;
+                    }
+                    .jenny{
+                        display: flex;
+                        align-items: center;
+                        gap: 20px;
+                        color: #391400;
+                        font-family: Arial, Helvetica, sans-serif;
+                    }
+                    button{
+                        border: none;
+                        background-color: #fff;
+                        color: black;
+                        font-weight: 700;
+                        font-family: Arial, Helvetica, sans-serif;
+                        padding: 10px 20px;
+                        border-radius: 5px;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+    #service{
+        padding: 80px 20px;
+        background-color: #f8e2d6;
+        .container{
+            margin: 0 auto;
+            max-width: 1200px;
+            .service-container{
+                .service-container-title{
+                    width: 50%;
+                    h5{
+                        color: orangered;
+                        font-family: Arial, Helvetica, sans-serif;
+                        letter-spacing: 3px;
+                    }
+                    h3{
+                        font-family: Arial, Helvetica, sans-serif;
+                        font-weight: 800;
+                        font-size: 56px;
+                        color: #391400;
+                    }
+                }
+                .service-container-cards{
+                    .cards{
+                        display: flex;
+                        .cards-boxes{
+                            border: 1px solid #F3D1BF;
+                            padding: 30px;
+                            .icon{
+                                background-color: orangered;
+                                display: inline-block;
+                                border-radius: 50%;
+                                padding: 10px;
+                                img{
+                                    width: 20px;
+                                    height: 20px;
+                                }
+                            }
                         }
                     }
                 }

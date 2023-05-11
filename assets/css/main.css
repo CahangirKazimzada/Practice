@@ -150,7 +150,6 @@ main #experience {
 main #experience .container {
   margin: 0 auto;
   max-width: 1200px;
-  width: 100%;
   display: flex;
   align-items: center;
   gap: 80px;
@@ -169,6 +168,7 @@ main #experience .container .right-part h2 {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 50px;
   font-weight: 800;
+  width: 100%;
 }
 main #experience .container .right-part .big-text {
   font-family: "Epilogue", sans-serif;
@@ -400,8 +400,8 @@ main #feature-content .container .content-container .cards {
   display: flex;
 }
 main #feature-content .container .content-container .cards .card-box {
-  width: 336px;
   height: 272px;
+  padding: 500px;
   border: 1px solid #F3D1BF;
   display: flex;
   flex-direction: column;
@@ -409,10 +409,6 @@ main #feature-content .container .content-container .cards .card-box {
   gap: 20px;
   padding: 0 30px;
   transition: 500ms;
-}
-main #feature-content .container .content-container .cards .card-box:hover {
-  height: 336px;
-  background-color: white;
 }
 main #feature-content .container .content-container .cards .card-box h4 {
   font-family: Arial, Helvetica, sans-serif;
@@ -422,6 +418,97 @@ main #feature-content .container .content-container .cards .card-box h4 {
 main #feature-content .container .content-container .cards .card-box p {
   font-family: "Epilogue", sans-serif;
   color: #391400;
+}
+main #service-title {
+  padding: 80px 20px;
+  background-color: #f8e2d6;
+}
+main #service-title .container {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+main #service-title .container .service-title-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+main #service-title .container .service-title-container .right-part {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 30px;
+}
+main #service-title .container .service-title-container .right-part h5 {
+  color: orangered;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 3px;
+}
+main #service-title .container .service-title-container .right-part h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 800;
+  font-size: 56px;
+  color: #391400;
+}
+main #service-title .container .service-title-container .right-part .big-text {
+  font-family: "Epilogue", sans-serif;
+  color: #391400;
+}
+main #service-title .container .service-title-container .right-part .jenny {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  color: #391400;
+  font-family: Arial, Helvetica, sans-serif;
+}
+main #service-title .container .service-title-container .right-part button {
+  border: none;
+  background-color: #fff;
+  color: black;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+main #service {
+  padding: 80px 20px;
+  background-color: #f8e2d6;
+}
+main #service .container {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+main #service .container .service-container .service-container-title {
+  width: 50%;
+}
+main #service .container .service-container .service-container-title h5 {
+  color: orangered;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 3px;
+}
+main #service .container .service-container .service-container-title h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 800;
+  font-size: 56px;
+  color: #391400;
+}
+main #service .container .service-container .service-container-cards .cards {
+  display: flex;
+}
+main #service .container .service-container .service-container-cards .cards .cards-boxes {
+  border: 1px solid #F3D1BF;
+  padding: 30px;
+}
+main #service .container .service-container .service-container-cards .cards .cards-boxes .icon {
+  background-color: orangered;
+  display: inline-block;
+  border-radius: 50%;
+  padding: 10px;
+}
+main #service .container .service-container .service-container-cards .cards .cards-boxes .icon img {
+  width: 20px;
+  height: 20px;
 }
 
 @media screen and (max-width: 768px) {
@@ -491,4 +578,30 @@ main #feature-content .container .content-container .cards .card-box p {
   main #features .container .features-container .right-part img {
     width: 100%;
   }
-}
+  main #feature-content .container .content-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  main #feature-content .container .content-container .cards {
+    display: flex;
+    flex-direction: column;
+  }
+  main #feature-content .container .content-container .cards .card-boxes {
+    width: 100%;
+  }
+  main #service-title .container .service-title-container {
+    display: flex;
+    flex-direction: column;
+  }
+  main #service-title .container .service-title-container .left-part img {
+    width: 100%;
+  }
+  main #service .container .service-container .service-container-title {
+    width: 100%;
+  }
+  main #service .container .service-container .service-container-cards .cards {
+    display: flex;
+    flex-direction: column;
+  }
+}/*# sourceMappingURL=main.css.map */

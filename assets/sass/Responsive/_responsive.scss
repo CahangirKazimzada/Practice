@@ -103,5 +103,49 @@
                 }
             }
         }
+        #feature-content{
+            .container{
+                .content-container{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 30px;
+                    .cards{
+                        display: flex;
+                        flex-direction: column;
+                        .card-boxes{
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+        #service-title{
+            .container{
+                .service-title-container{
+                    display: flex;
+                    flex-direction: column;
+                    .left-part{
+                        img{
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+        #service{
+            .container{
+                .service-container{
+                    .service-container-title{
+                        width: 100%;
+                    }
+                    .service-container-cards{
+                        .cards{
+                            display: flex;
+                            flex-direction: column;
+                        }
+                    }
+                }
+            }
+        }
     }
 }
