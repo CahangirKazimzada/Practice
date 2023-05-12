@@ -43,6 +43,11 @@
         #experience{
             .container{
                 flex-direction: column;
+                .right-part{
+                    h2{
+                        font-size: 40px;
+                    }
+                }
                 .left-part{
                     img{
                         width: 100%;
@@ -198,6 +203,59 @@
                         .path{
                             width: 226px;
                             height: 194px;
+                        }
+                    }
+                }
+            }
+        }
+        #events{
+            .container{
+                .events-container{
+                    width: 100%;
+                    .events-container-title{
+                        h2{
+                            font-size: 40px;
+                        }
+                    }
+                    .events-cards{
+                        display: flex;
+                        flex-direction: column;
+                        .card-box{
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+        #team{
+            padding: 20px 80px;
+            .container{
+                .team-container{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    .team-container-title{
+                        h2{
+                            font-size: 40px;
+                        }
+                    }
+                    .team-container-cards{
+                        display: flex;
+                        flex-direction: column;
+                        gap: 20px;
+                    }
+                }
+            }
+        }
+        #founder-words{
+            .container{
+                .words-container{
+                    display: flex;
+                    flex-direction: column;
+                    .left-part{
+                        img{
+                            width: 100%;
                         }
                     }
                 }

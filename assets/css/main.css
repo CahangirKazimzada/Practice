@@ -622,6 +622,7 @@ main #start .container .start-container .girl-pic .girl {
 }
 main #events {
   background-color: #3A3C56;
+  padding: 80px 20px;
 }
 main #events .container {
   margin: 0 auto;
@@ -647,7 +648,6 @@ main #events .container .events-container .events-container-title h2 {
 main #events .container .events-container .events-cards {
   display: flex;
   gap: 20px;
-  height: 448px;
 }
 main #events .container .events-container .events-cards .card-box {
   border: 1px solid #56597e;
@@ -702,6 +702,96 @@ main #events .container .events-container .events-cards .card-box .card-info-tit
   font-family: "Epilogue", sans-serif;
   font-size: 16px;
 }
+main #events .container .events-container .explore-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+main #events .container .events-container .explore-btn button {
+  background-color: #3A3C56;
+  border: 1px solid white;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+main #team {
+  background-color: #3A3C56;
+}
+main #team .container {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+main #team .container .team-container .team-container-title h5 {
+  color: orangered;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 3px;
+}
+main #team .container .team-container .team-container-title h2 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 800;
+  font-size: 50px;
+}
+main #team .container .team-container .team-container-cards {
+  display: flex;
+  justify-content: space-between;
+}
+main #team .container .team-container .team-container-cards .card-boxes img {
+  border: 1px solid #5c5f8b;
+  padding: 20px 20px 0;
+  width: 100%;
+}
+main #team .container .team-container .team-container-cards .card-boxes h4 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+main #team .container .team-container .team-container-cards .card-boxes p {
+  color: gray;
+  font-family: "Epilogue", sans-serif;
+}
+main #founder-words {
+  padding: 80px 20px;
+  background-color: #3A3C56;
+}
+main #founder-words .container {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+main #founder-words .container .words-container {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+}
+main #founder-words .container .words-container .right-part {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+main #founder-words .container .words-container .right-part h5 {
+  color: orangered;
+  font-family: "Epilogue", sans-serif;
+  letter-spacing: 3px;
+  font-size: 16px;
+}
+main #founder-words .container .words-container .right-part h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 800;
+  font-size: 40px;
+  color: white;
+}
+main #founder-words .container .words-container .right-part .big-text {
+  color: white;
+  font-family: "Epilogue", sans-serif;
+  font-size: 20px;
+}
+main #founder-words .container .words-container .right-part p {
+  color: white;
+  font-size: 16px;
+  font-family: "Epilogue", sans-serif;
+}
 
 @media screen and (max-width: 768px) {
   header nav {
@@ -734,6 +824,9 @@ main #events .container .events-container .events-cards .card-box .card-info-tit
   }
   main #experience .container {
     flex-direction: column;
+  }
+  main #experience .container .right-part h2 {
+    font-size: 40px;
   }
   main #experience .container .left-part img {
     width: 100%;
@@ -836,4 +929,41 @@ main #events .container .events-container .events-cards .card-box .card-info-tit
     width: 226px;
     height: 194px;
   }
-}
+  main #events .container .events-container {
+    width: 100%;
+  }
+  main #events .container .events-container .events-container-title h2 {
+    font-size: 40px;
+  }
+  main #events .container .events-container .events-cards {
+    display: flex;
+    flex-direction: column;
+  }
+  main #events .container .events-container .events-cards .card-box {
+    width: 100%;
+  }
+  main #team {
+    padding: 20px 80px;
+  }
+  main #team .container .team-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  main #team .container .team-container .team-container-title h2 {
+    font-size: 40px;
+  }
+  main #team .container .team-container .team-container-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  main #founder-words .container .words-container {
+    display: flex;
+    flex-direction: column;
+  }
+  main #founder-words .container .words-container .left-part img {
+    width: 100%;
+  }
+}/*# sourceMappingURL=main.css.map */

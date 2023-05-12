@@ -515,6 +515,7 @@ main{
     }
     #events{
         background-color: #3A3C56;
+        padding: 80px 20px;
         .container{
             margin: 0 auto;
             max-width: 1200px;
@@ -539,7 +540,7 @@ main{
                 .events-cards{
                     display: flex;
                     gap: 20px;
-                    height: 448px;
+                    // height: 448px;
                     .card-box{
                         border: 1px solid #56597e;
                         padding: 20px;
@@ -595,6 +596,104 @@ main{
                                 font-size: 16px;
                             }
                         }
+                    }
+                }
+                
+                .explore-btn{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin-top: 100px;
+                    button{
+                        background-color: #3A3C56;
+                        border: 1px solid white;
+                        color: white;
+                        padding: 10px 20px;
+                        border-radius: 5px;
+                    }
+                }
+            }
+        }
+    }
+    #team{
+        background-color: #3A3C56;
+        .container{
+            margin: 0 auto;
+            max-width: 1200px;
+            .team-container{
+                .team-container-title{
+                    h5{
+                        color: orangered;
+                        font-family: Arial, Helvetica, sans-serif;
+                        letter-spacing: 3px;
+                    }
+                    h2{
+                        color: white;
+                        font-family: Arial, Helvetica, sans-serif;
+                        font-weight: 800;
+                        font-size: 50px;
+                    }
+                }
+                .team-container-cards{
+                    display: flex;
+                    justify-content: space-between;
+                    .card-boxes{
+                        img{
+                            border: 1px solid 
+                            #5c5f8b;
+                            padding: 20px 20px 0;
+                            width: 100%;
+                        }
+                        h4{
+                            color: white;
+                            font-family: Arial, Helvetica, sans-serif;
+                            font-size: 24px;
+                            margin-bottom: 10px;
+                        }
+                        p{
+                            color: gray;
+                            font-family: 'Epilogue', sans-serif;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    #founder-words{
+        padding: 80px 20px;
+        background-color: #3A3C56;
+        .container{
+            margin: 0 auto;
+            max-width: 1200px;
+            .words-container{
+                display: flex;
+                align-items: center;
+                gap: 100px;
+                .right-part{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 30px;
+                    h5{
+                        color: orangered;
+                        font-family: 'Epilogue', sans-serif;
+                        letter-spacing: 3px;
+                        font-size: 16px;
+                    }
+                    h3{
+                        font-family: Arial, Helvetica, sans-serif;
+                        font-weight: 800;
+                        font-size: 40px;
+                        color: white;
+                    }
+                    .big-text{
+                        color: white;
+                        font-family: 'Epilogue', sans-serif;
+                        font-size: 20px;
+                    }
+                    p{
+                        color: white;
+                        font-size: 16px;
+                        font-family: 'Epilogue', sans-serif;
                     }
                 }
             }
