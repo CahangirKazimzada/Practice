@@ -238,7 +238,7 @@ main #red {
 }
 main #aqua {
   padding: 80px 20px;
-  background-color: orangered;
+  background-color: rgb(255, 60, 0);
   font-family: Arial, Helvetica, sans-serif;
 }
 main #aqua .container {
@@ -322,6 +322,7 @@ main #aqua .container .aqua-container .start-btn button {
   display: flex;
   justify-content: center;
   margin-bottom: 10px;
+  margin: 10px 10px;
 }
 #yellow .container .yellow-container .cards .card-box .card-btn button {
   width: 160px;
@@ -331,6 +332,7 @@ main #aqua .container .aqua-container .start-btn button {
   border-radius: 3px;
   font-size: 15px;
   color: blue;
+  cursor: pointer;
 }
 
 #main2 #gray {
