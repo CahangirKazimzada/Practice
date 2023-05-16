@@ -1,0 +1,285 @@
+$color_1: rgb(100, 95, 95);
+$color_2: black;
+$background-color_1: #eee;
+$background-color_2: #f9f9f9;
+$background-color_3: gray;
+$background-color_4: white;
+$background-color_5: black;
+
+/*Esas navbar*/
+/*DROPDOWN*/
+/*ACILAN SIDEBAR UCUN KODLAR*/
+header {
+    font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+	nav {
+		.container {
+			.nav-container {
+				.contact {
+					height: 50px;
+					background-color: $background-color_1;
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					font-size: 18px;
+					.contact-container {
+						margin: 0 auto;
+						max-width: 1200px;
+						width: 100%;
+						display: flex;
+						justify-content: space-between;
+						a {
+							color: $color_1;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+.main-navbar {
+	height: 70px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	.main-navbar-container {
+		margin: 0 auto;
+		max-width: 1200px;
+		width: 100%;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+}
+.page-title {
+	font-size: 25px;
+}
+.list {
+	ul {
+		display: flex;
+		align-items: center;
+		gap: 40px;
+		li {
+			a {
+				color: $color_2;
+				font-size: 18px;
+				font-weight: 400;
+			}
+		}
+		.fa-bars {
+			display: none;
+		}
+	}
+}
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: $background-color_2;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	z-index: 1;
+	border-top: 2px solid blue;
+	ul {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		gap: 25px;
+		li {
+			width: 100%;
+			&:hover {
+				background-color: $background-color_3;
+			}
+		}
+		.more-links {
+			.drop {
+				position: absolute;
+				display: none;
+				left: 160px;
+				top: 150px;
+				background-color: $background-color_2;
+				min-width: 160px;
+				box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+				z-index: 1;
+				border-top: 2px solid blue;
+			}
+			&:hover {
+				.drop {
+					display: block;
+				}
+			}
+		}
+	}
+}
+.dropdown {
+	&:hover {
+		.dropdown-content {
+			display: block;
+		}
+	}
+}
+.fa-bars {
+	font-size: 25px;
+}
+.sidebar {
+	height: 100vh;
+	width: 0;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	right: 0;
+	background-color: $background-color_4;
+	overflow-x: hidden;
+	transition: 0.5s;
+	.x-icon {
+		i {
+			color: $color_2;
+			position: absolute;
+			top: 10px;
+			right: 10px;
+			font-size: 25px;
+		}
+	}
+	#main-list {
+		margin-left: 20px;
+		margin-top: 30px;
+	}
+	a {
+		color: $color_2;
+		font-size: 25px;
+	}
+	ul {
+		li {
+			margin-bottom: 20px;
+		}
+		#about {
+			.openList {
+				margin-left: 20px;
+				height: 0;
+				overflow: hidden;
+				transition: 300ms;
+				li {
+					a {
+						font-size: 20px;
+					}
+				}
+			}
+		}
+	}
+}
+.closeList {
+	height: 300px !important;
+	transition: 300ms;
+}
+.sublist {
+	margin-left: 40px;
+	height: 0;
+	transition: 300ms;
+	overflow: hidden;
+}
+.sublist-open {
+	height: 100% !important;
+	transition: 300ms;
+}
+#btn {
+	transition: 300ms;
+}
+.rotate {
+	transform: rotate(-180deg);
+	transition: 300ms;
+}
+.opacity {
+	width: 100vw;
+	height: 100vh;
+	background-color: $background-color_5;
+	position: absolute;
+	top: 0;
+	opacity: 0.6;
+	display: none;
+}
+.img {
+	height: 800px;
+	img {
+		width: 100%;
+		height: 100%;
+	}
+}
+@media screen and (max-width: 990px) {
+	header {
+		nav {
+			.container {
+				.nav-container {
+					.contact {
+						.contact-container {
+							margin: 0 auto;
+							max-width: 600px;
+							width: 100%;
+						}
+					}
+				}
+			}
+		}
+	}
+	.main-navbar {
+		.main-navbar-container {
+			margin: 0 auto;
+			max-width: 600px;
+			ul {
+				li {
+					display: none;
+				}
+				i {
+					display: block;
+				}
+			}
+		}
+	}
+}
+@media screen and (max-width: 768px) {
+	header {
+		nav {
+			.container {
+				.nav-container {
+					.contact {
+						.contact-container {
+							margin: 0 auto;
+							max-width: 500px;
+							width: 100%;
+						}
+					}
+				}
+			}
+		}
+	}
+	.main-navbar {
+		.main-navbar-container {
+			margin: 0 auto;
+			max-width: 500px;
+		}
+	}
+	span {
+		display: none;
+	}
+}
+@media screen and (max-width:500px) {
+	header {
+		nav {
+			.container {
+				.nav-container {
+					.contact {
+						.contact-container {
+							margin: 0 auto;
+							max-width: 300px;
+							width: 100%;
+						}
+					}
+				}
+			}
+		}
+	}
+	.main-navbar {
+		.main-navbar-container {
+			margin: 0 auto;
+			max-width: 300px;
+		}
+	}
+}
+

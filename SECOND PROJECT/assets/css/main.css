@@ -1,0 +1,351 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+/*Esas navbar*/
+/*DROPDOWN*/
+/*ACILAN SIDEBAR UCUN KODLAR*/
+header {
+  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+header nav .container .nav-container .contact {
+  height: 50px;
+  background-color: #eee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+}
+header nav .container .nav-container .contact .contact-container {
+  margin: 0 auto;
+  max-width: 1200px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+header nav .container .nav-container .contact .contact-container a {
+  color: rgb(100, 95, 95);
+}
+
+.main-navbar {
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-navbar .main-navbar-container {
+  margin: 0 auto;
+  max-width: 1200px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.page-title {
+  font-size: 25px;
+}
+
+.list ul {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.list ul li a {
+  color: black;
+  font-size: 18px;
+  font-weight: 400;
+}
+.list ul .fa-bars {
+  display: none;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border-top: 2px solid blue;
+}
+.dropdown-content ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 25px;
+}
+.dropdown-content ul li {
+  width: 100%;
+}
+.dropdown-content ul li:hover {
+  background-color: gray;
+}
+.dropdown-content ul .more-links .drop {
+  position: absolute;
+  display: none;
+  left: 160px;
+  top: 150px;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border-top: 2px solid blue;
+}
+.dropdown-content ul .more-links:hover .drop {
+  display: block;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.fa-bars {
+  font-size: 25px;
+}
+
+.sidebar {
+  height: 100vh;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: white;
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+.sidebar .x-icon i {
+  color: black;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 25px;
+}
+.sidebar #main-list {
+  margin-left: 20px;
+  margin-top: 30px;
+}
+.sidebar a {
+  color: black;
+  font-size: 25px;
+}
+.sidebar ul li {
+  margin-bottom: 20px;
+}
+.sidebar ul #about .openList {
+  margin-left: 20px;
+  height: 0;
+  overflow: hidden;
+  transition: 300ms;
+}
+.sidebar ul #about .openList li a {
+  font-size: 20px;
+}
+
+.closeList {
+  height: 300px !important;
+  transition: 300ms;
+}
+
+.sublist {
+  margin-left: 40px;
+  height: 0;
+  transition: 300ms;
+  overflow: hidden;
+}
+
+.sublist-open {
+  height: 100% !important;
+  transition: 300ms;
+}
+
+#btn {
+  transition: 300ms;
+}
+
+.rotate {
+  transform: rotate(-180deg);
+  transition: 300ms;
+}
+
+.opacity {
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  position: absolute;
+  top: 0;
+  opacity: 0.6;
+  display: none;
+}
+
+.img {
+  height: 800px;
+}
+.img img {
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (max-width: 990px) {
+  header nav .container .nav-container .contact .contact-container {
+    margin: 0 auto;
+    max-width: 600px;
+    width: 100%;
+  }
+  .main-navbar .main-navbar-container {
+    margin: 0 auto;
+    max-width: 600px;
+  }
+  .main-navbar .main-navbar-container ul li {
+    display: none;
+  }
+  .main-navbar .main-navbar-container ul i {
+    display: block;
+  }
+}
+@media screen and (max-width: 768px) {
+  header nav .container .nav-container .contact .contact-container {
+    margin: 0 auto;
+    max-width: 500px;
+    width: 100%;
+  }
+  .main-navbar .main-navbar-container {
+    margin: 0 auto;
+    max-width: 500px;
+  }
+  span {
+    display: none;
+  }
+}
+@media screen and (max-width: 500px) {
+  header nav .container .nav-container .contact .contact-container {
+    margin: 0 auto;
+    max-width: 300px;
+    width: 100%;
+  }
+  .main-navbar .main-navbar-container {
+    margin: 0 auto;
+    max-width: 300px;
+  }
+}
+main #red {
+  background-color: red;
+}
+main #aqua {
+  padding: 80px 20px;
+  background-color: orangered;
+  font-family: Arial, Helvetica, sans-serif;
+}
+main #aqua .container {
+  margin: 0 auto;
+  max-width: 1000px;
+  width: 100%;
+}
+main #aqua .container .aqua-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+main #aqua .container .aqua-container .title {
+  color: white;
+}
+main #aqua .container .aqua-container .line {
+  width: 100px;
+  height: 5px;
+  background-color: white;
+  border-radius: 10px;
+}
+main #aqua .container .aqua-container .text {
+  color: white;
+}
+main #aqua .container .aqua-container .start-btn button {
+  background-color: white;
+  border: none;
+  padding: 15px 20px;
+  border-radius: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
+}
+
+#yellow {
+  padding: 80px 20px;
+  font-family: "Epilogue", sans-serif;
+}
+#yellow .container {
+  margin: 0 auto;
+  max-width: 600px;
+  width: 100%;
+}
+#yellow .container .yellow-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+#yellow .container .yellow-container .cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+#yellow .container .yellow-container .cards .card-box {
+  border: 1px solid;
+  border-radius: 3px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+#yellow .container .yellow-container .cards .card-box .card-box-title {
+  background-color: rgb(209, 203, 203);
+  border-bottom: 1px solid rgb(155, 152, 152);
+}
+#yellow .container .yellow-container .cards .card-box .card-box-title p {
+  text-align: center;
+  font-size: 25px;
+}
+#yellow .container .yellow-container .cards .card-box .value {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#yellow .container .yellow-container .cards .card-box .card-info p {
+  font-size: 13px;
+  text-align: center;
+}
+#yellow .container .yellow-container .cards .card-box .card-btn {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+#yellow .container .yellow-container .cards .card-box .card-btn button {
+  width: 160px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border: 2px solid blue;
+  border-radius: 3px;
+  font-size: 15px;
+  color: blue;
+}
+
+#main2 #gray {
+  background-color: gray;
+}
+#main2 #blue {
+  background-color: blue;
+}
+
+footer {
+  border: 1px solid;
+}
+
+@media screen and (max-width: 590px) {
+  #yellow .container .yellow-container .cards {
+    flex-direction: column;
+  }
+}/*# sourceMappingURL=main.css.map */
