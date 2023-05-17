@@ -1,0 +1,62 @@
+header{
+    nav{
+        background-color: gray;
+        font-family: 'Epilogue', sans-serif;
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .container{
+            margin: 0 auto;
+            max-width: 1200px;
+            width: 100%;
+            .nav-container{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                .title{
+                    p{
+                        font-size: 25px;
+                        color: white;
+                    }
+                }
+                .list{
+                    ul{
+                        display: flex;
+                        width: 600px;
+                        justify-content: space-between;
+                        li{
+                            a{
+                                color: white;
+                            }
+                        }
+                    }
+                }
+                .buttons{
+                    display: flex;
+                    align-items: center;
+                    gap: 20px;
+                    .post-job-btn{
+                        button{
+                            background-color: gray;
+                            border: 2px solid white;
+                            padding: 5px 10px;
+                            color: white;
+                            border-radius: 3px;
+                        }
+                    }
+                    .login{
+                        button{
+                            background-color: rgb(119, 128, 0);
+                            border: none;
+                            padding: 5px 10px;
+                            color: white;
+                            border-radius: 3px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
