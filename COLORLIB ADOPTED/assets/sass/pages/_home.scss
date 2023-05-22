@@ -1,0 +1,104 @@
+main{
+    #carousel{
+        #carouselExample{
+            .carousel-inner{
+                .active{
+                    position: relative;
+                    .boy-info{
+                        position: absolute;
+                        width: 100%;
+                        top: 0%;
+                        color: white;
+                        margin-top: 100px;
+                        .container{
+                            max-width: 1000px;
+                            margin: 0 auto;
+                            padding-right: 300px;
+                            .boy-name{
+                                font-family: cursive;
+                            }
+                            .boy-btn{
+                                button{
+                                    border: none;
+                                    background-color: orangered;
+                                    border-radius: 3px;
+                                    color: white;
+                                    padding: 10px 20px;
+                                }
+                            }
+                        }
+                    }
+                }
+                #girl{
+                    position: relative;
+                    .girl-info{
+                        position: absolute;
+                        width: 100%;
+                        top: 0%;
+                        margin-top: 100px;
+                        .container{
+                            max-width: 1000px;
+                            margin: 0 auto;
+                            padding-right: 300px;
+                            color: rgb(94, 91, 91);
+                            .boy-name{
+                                font-family: cursive;
+                            }
+                            .boy-btn{
+                                button{
+                                    border: none;
+                                    background-color: orangered;
+                                    border-radius: 3px;
+                                    color: white;
+                                    padding: 10px 20px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    #steps{
+        .container{
+            max-width: 1140px;
+            margin: 0 auto;
+            width: 100%;
+            .steps-container{
+                .left{
+                    width: 50%;
+                    .family-pic{
+                        width: 445px;
+                        height: 445px;
+                        .img{
+                            width: 100%;
+                        }
+                    }
+                    .lorem-text{
+                        font-size: 16px;
+                        color: gray;
+                    }
+                    .adopt{
+                        button{
+                            border: 2px solid #bc5148;
+                            border-radius: 5px;
+                            padding: 10px 20px;
+                            transition: 300ms;
+                            a{
+                                color: #bc5148;
+                            }
+                            &:hover{
+                                background-color: #bc5148;
+                                border: none;
+                                a{
+                                    color: white;
+                                }
+                            }
+                        }
+                    }
+                }
+                
+            }
+        }
+    }
+}

@@ -1,0 +1,221 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font: inherit;
+  text-decoration: none !important;
+  list-style-type: none;
+}
+
+header {
+  font-family: "Open Sans", Arial, sans-serif;
+}
+header #media {
+  padding: 0 20px;
+  background-color: #bc5148;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+}
+header #media .container {
+  max-width: 1140px;
+  margin: 0 auto;
+  width: 100%;
+}
+header #media .container .media-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header #media .container .media-container .networks {
+  display: flex;
+  gap: 20px;
+}
+header #media .container .media-container .networks span {
+  cursor: pointer;
+}
+header #media .container .media-container .networks span i {
+  transition: 200ms;
+}
+header #media .container .media-container .networks span i:hover {
+  color: white;
+}
+header #media .container .media-container .login a {
+  color: black;
+  display: inline-block;
+  height: 50px;
+  padding-top: 15px;
+  text-align: center;
+}
+header #media .container .media-container .login .login {
+  background-color: rgb(255, 208, 0);
+}
+header nav {
+  padding: 0 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+}
+header nav .container {
+  max-width: 1140px;
+  margin: 0 auto;
+  width: 100%;
+}
+header nav .container .nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header nav .container .nav-container .title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+header nav .container .nav-container .title h1 {
+  font-size: 23px;
+}
+header nav .container .nav-container .list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header nav .container .nav-container .list ul {
+  display: flex;
+  gap: 50px;
+}
+header nav .container .nav-container .list ul li a {
+  color: black;
+  font-size: 17px;
+}
+header nav .container .nav-container .menu-bar {
+  display: none;
+}
+header nav .container .nav-container .menu-bar a {
+  color: black;
+}
+header nav .container .nav-container .menu-bar a i {
+  border: 1px solid;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+header .resp-list {
+  padding: 0 20px;
+  background-color: aqua;
+  height: 0;
+  overflow: hidden;
+  transition: 300ms;
+}
+header .resp-list .container {
+  max-width: 1140px;
+  margin: 0 auto;
+  width: 100%;
+}
+header .resp-list .container ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+header .resp-list .container ul li a {
+  color: black;
+}
+header .open {
+  height: 130px;
+}
+
+main #carousel #carouselExample .carousel-inner .active {
+  position: relative;
+}
+main #carousel #carouselExample .carousel-inner .active .boy-info {
+  position: absolute;
+  width: 100%;
+  top: 0%;
+  color: white;
+  margin-top: 100px;
+}
+main #carousel #carouselExample .carousel-inner .active .boy-info .container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding-right: 300px;
+}
+main #carousel #carouselExample .carousel-inner .active .boy-info .container .boy-name {
+  font-family: cursive;
+}
+main #carousel #carouselExample .carousel-inner .active .boy-info .container .boy-btn button {
+  border: none;
+  background-color: orangered;
+  border-radius: 3px;
+  color: white;
+  padding: 10px 20px;
+}
+main #carousel #carouselExample .carousel-inner #girl {
+  position: relative;
+}
+main #carousel #carouselExample .carousel-inner #girl .girl-info {
+  position: absolute;
+  width: 100%;
+  top: 0%;
+  margin-top: 100px;
+}
+main #carousel #carouselExample .carousel-inner #girl .girl-info .container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding-right: 300px;
+  color: rgb(94, 91, 91);
+}
+main #carousel #carouselExample .carousel-inner #girl .girl-info .container .boy-name {
+  font-family: cursive;
+}
+main #carousel #carouselExample .carousel-inner #girl .girl-info .container .boy-btn button {
+  border: none;
+  background-color: orangered;
+  border-radius: 3px;
+  color: white;
+  padding: 10px 20px;
+}
+main #steps .container {
+  max-width: 1140px;
+  margin: 0 auto;
+  width: 100%;
+}
+main #steps .container .steps-container .left {
+  width: 50%;
+}
+main #steps .container .steps-container .left .family-pic {
+  width: 445px;
+  height: 445px;
+}
+main #steps .container .steps-container .left .family-pic .img {
+  width: 100%;
+}
+main #steps .container .steps-container .left .lorem-text {
+  font-size: 16px;
+  color: gray;
+}
+main #steps .container .steps-container .left .adopt button {
+  border: 2px solid #bc5148;
+  border-radius: 5px;
+  padding: 10px 20px;
+  transition: 300ms;
+}
+main #steps .container .steps-container .left .adopt button a {
+  color: #bc5148;
+}
+main #steps .container .steps-container .left .adopt button:hover {
+  background-color: #bc5148;
+  border: none;
+}
+main #steps .container .steps-container .left .adopt button:hover a {
+  color: white;
+}
+
+@media screen and (max-width: 800px) {
+  header nav .container .nav-container .list {
+    display: none;
+  }
+  header nav .container .nav-container .menu-bar {
+    display: block !important;
+  }
+}/*# sourceMappingURL=main.css.map */
