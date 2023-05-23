@@ -1,0 +1,42 @@
+[
+    {
+        "img" : "./assets/images/service-img/cloud-hosting.png",
+        "title" : "Cloud Hosting",
+        "content" : "There are many variations of passages of Lorem Ipsum available, but the majority have suffered."
+    },
+    {
+        "img" : "./assets/images/service-img/web-hosting.png",
+        "title" : "Web Hosting",
+        "content" : "There are many variations of passages of Lorem Ipsum available, but the majority have suffered."
+    },
+    {
+        "img" : "./assets/images/service-img/share-hosting.png",
+        "title" : "Share Hosting",
+        "content" : "There are many variations of passages of Lorem Ipsum available, but the majority have suffered."
+    },
+    {
+        "img" : "./assets/images/service-img/vps-server.png",
+        "title" : "VPS Server",
+        "content" : "There are many variations of passages of Lorem Ipsum available, but the majority have suffered."
+    },
+    {
+        "img" : "./assets/images/service-img/whcms.png",
+        "title" : "WHCMS",
+        "content" : "There are many variations of passages of Lorem Ipsum available, but the majority have suffered."
+    },
+    {
+        "img" : "./assets/images/service-img/support.png",
+        "title" : "24/7 Support",
+        "content" : "There are many variations of passages of Lorem Ipsum available, but the majority have suffered."
+    },
+    {
+        "img" : "./assets/images/service-img/windows-hosting.png",
+        "title" : "Windows Hosting",
+        "content" : "There are many variations of passages of Lorem Ipsum available, but the majority have suffered."
+    },
+    {
+        "img" : "./assets/images/service-img/ss-icon-8.png.webp",
+        "title" : "Database Hosting",
+        "content" : "There are many variations of passages of Lorem Ipsum available, but the majority have suffered."
+    }
+]

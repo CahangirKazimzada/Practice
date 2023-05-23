@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+header nav {
+  padding: 0 20px;
+  height: 90px;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: white;
+}
+header nav .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+header nav .container .nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header nav .container .nav-container .title {
+  cursor: pointer;
+}
+header nav .container .nav-container .list ul {
+  display: flex;
+  gap: 50px;
+}
+header nav .container .nav-container .list ul li a {
+  color: black;
+  transition: 300ms;
+}
+header nav .container .nav-container .list ul li a:hover {
+  color: rgb(0, 174, 255);
+}
+header nav .container .nav-container .menu-bar {
+  display: none;
+}
+header nav .container .nav-container .menu-bar i {
+  font-size: 25px;
+}
+header .resp-list {
+  padding: 0 20px;
+  font-family: "Poppins", sans-serif;
+  overflow: hidden;
+  height: 0;
+  transition: 200ms;
+}
+header .resp-list .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+header .resp-list .container ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+header .resp-list .container ul li a {
+  color: black;
+}
+header .resp-list .container ul li a:hover {
+  color: rgb(0, 174, 255);
+}
+header .open-list {
+  height: 284px;
+}
+header #offer {
+  width: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+header #offer img {
+  width: 100%;
+}
+header #offer .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+main #service {
+  font-family: "Montserrat", sans-serif;
+  padding: 80px 20px;
+}
+main #service .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+main #service .container .service-container .title {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 20px;
+}
+main #service .container .service-container .title h1 {
+  font-size: 40px;
+}
+main #service .container .service-container .title .line {
+  width: 90px;
+  background-color: black;
+  height: 2px;
+  border-radius: 5px;
+}
+main #service .container .service-container .cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+main #service .container .service-container .cards p {
+  color: gray;
+}
+main #service .container .service-container .cards .card-box {
+  width: 295px;
+  text-align: center;
+  padding: 20px;
+}
+main #client {
+  background-color: #7db9e8;
+}
+main #client .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+main #client .container .client-container .title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  text-align: center;
+}
+main #client .container .client-container .title .line {
+  background-color: black;
+  border-radius: 5px;
+  width: 100px;
+  height: 2px;
+}
+main #client .container .client-container .infos {
+  display: flex;
+  justify-content: space-between;
+}
+main #client .container .client-container .infos .info-content div {
+  display: flex;
+}
+
+@media screen and (max-width: 910px) {
+  header nav .container .nav-container .list {
+    display: none;
+  }
+  header nav .container .nav-container .menu-bar {
+    display: block;
+  }
+}/*# sourceMappingURL=main.css.map */

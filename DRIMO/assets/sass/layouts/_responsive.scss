@@ -1,0 +1,16 @@
+@media screen and (max-width: 910px){
+    header{
+        nav{
+            .container{
+                .nav-container{
+                    .list{
+                        display: none;
+                    }
+                    .menu-bar{
+                        display: block;
+                    }
+                }
+            }
+        }
+    }    
+}
