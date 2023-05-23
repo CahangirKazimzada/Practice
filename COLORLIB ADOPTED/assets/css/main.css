@@ -175,20 +175,21 @@ main #carousel #carouselExample .carousel-inner #girl .girl-info .container .boy
   color: white;
   padding: 10px 20px;
 }
+main #steps {
+  padding: 100px 20px;
+}
 main #steps .container {
   max-width: 1140px;
   margin: 0 auto;
   width: 100%;
 }
+main #steps .container .steps-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
 main #steps .container .steps-container .left {
   width: 50%;
-}
-main #steps .container .steps-container .left .family-pic {
-  width: 445px;
-  height: 445px;
-}
-main #steps .container .steps-container .left .family-pic .img {
-  width: 100%;
 }
 main #steps .container .steps-container .left .lorem-text {
   font-size: 16px;
@@ -210,6 +211,67 @@ main #steps .container .steps-container .left .adopt button:hover {
 main #steps .container .steps-container .left .adopt button:hover a {
   color: white;
 }
+main #steps .container .steps-container .right .right-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+main #steps .container .steps-container .right .right-list .line {
+  border: 1px solid rgb(201, 198, 198);
+  font-size: 18px;
+  padding: 10px;
+  border-radius: 3px;
+}
+main #steps .container .steps-container .right .right-list .line .line-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main #steps .container .steps-container .right .right-list .line .line-info {
+  margin-top: 20px;
+  padding-left: 20px;
+  font-size: 17px;
+  color: gray;
+  overflow: hidden;
+  transition: 300ms;
+  height: 0;
+}
+main #steps .container .steps-container .right .right-list .line .open-line-info {
+  height: 85px;
+}
+main #children .container {
+  max-width: 1140px;
+  margin: 0 auto;
+  width: 100%;
+}
+main #children .container .title {
+  text-align: center;
+}
+main #children .container .title .btn button {
+  border: none;
+  background-color: #bc5148;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+main #children .container .cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+main #children .container .cards .card-box {
+  width: 362px;
+  border: 1px solid gray;
+}
+main #children .container .cards .card-box img {
+  width: 100%;
+}
+main #children .container .cards .card-box .name {
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 @media screen and (max-width: 800px) {
   header nav .container .nav-container .list {
@@ -218,4 +280,14 @@ main #steps .container .steps-container .left .adopt button:hover a {
   header nav .container .nav-container .menu-bar {
     display: block !important;
   }
-}/*# sourceMappingURL=main.css.map */
+}
+@media screen and (max-width: 880px) {
+  main #steps .container .steps-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  main #steps .container .steps-container .left .family-pic img {
+    width: 100%;
+  }
+}

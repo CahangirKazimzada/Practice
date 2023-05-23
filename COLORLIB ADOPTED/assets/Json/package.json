@@ -1,0 +1,17 @@
+[
+    {
+        "img" : "/assets/Images/children-pics/edward.webp",
+        "name" : "Edward",
+        "age" : "14 yrs"
+    },
+    {
+        "img" : "/assets/Images/children-pics/melisa.webp",
+        "name" : "Melisa",
+        "age" : "14 yrs"
+    },
+    {
+        "img" : "/assets/Images/children-pics/mark.webp",
+        "name" : "Mark",
+        "age" : "14 yrs"
+    }
+]

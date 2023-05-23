@@ -12,5 +12,26 @@
                 }
             }
         }
-    }    
+    }  
+}
+
+@media screen and (max-width: 880px){
+    main{
+        #steps{
+            .container{
+                .steps-container{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    .left{
+                        .family-pic{
+                            img{
+                                width: 100%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }  
 }

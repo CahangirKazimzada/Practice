@@ -60,20 +60,17 @@ main{
         }
     }
     #steps{
+        padding: 100px 20px;
         .container{
             max-width: 1140px;
             margin: 0 auto;
             width: 100%;
             .steps-container{
+                display: flex;
+                justify-content: space-between;
+                gap: 20px;
                 .left{
                     width: 50%;
-                    .family-pic{
-                        width: 445px;
-                        height: 445px;
-                        .img{
-                            width: 100%;
-                        }
-                    }
                     .lorem-text{
                         font-size: 16px;
                         color: gray;
@@ -97,7 +94,74 @@ main{
                         }
                     }
                 }
-                
+                .right{
+                    .right-list{
+                        display: flex;
+                        flex-direction: column;
+                        gap: 10px;
+                        .line{
+                            border: 1px solid rgb(201, 198, 198);
+                            font-size: 18px;
+                            padding: 10px;
+                            border-radius: 3px;
+                            .line-title{
+                                display: flex;
+                                justify-content: space-between;
+                                align-items: center;
+                            }
+                            .line-info{
+                                margin-top: 20px;
+                                padding-left: 20px;
+                                font-size: 17px;
+                                color: gray;
+                                overflow: hidden;
+                                transition: 300ms;
+                                height: 0;
+                                
+                            }
+                            .open-line-info{
+                                height: 85px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    #children{
+        .container{
+            max-width: 1140px;
+            margin: 0 auto;
+            width: 100%;
+            .title{
+                text-align: center;
+                .btn{
+                    button{
+                        border: none;
+                        background-color: #bc5148;
+                        color: white;
+                        padding: 10px 20px;
+                        border-radius: 5px;
+                    }
+                }
+            }
+            .cards{
+                display: flex;
+                flex-wrap: wrap;
+                gap: 10px;
+                .card-box{
+                    width: 362px;
+                    border: 1px solid gray;
+                    img{
+                        width: 100%;
+                    }
+                    .name{
+                        height: 80px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                }
             }
         }
     }
