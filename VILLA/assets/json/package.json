@@ -1,0 +1,17 @@
+[
+    {
+        "img" : "./assets/images/api-imgs/img_1.jpg.webp",
+        "date" : "FEBRUARY 26, 2018",
+        "content" : "Five Reasons to Stay at Villa Resort"
+    },
+    {
+        "img" : "./assets/images/api-imgs/img_2.jpg.webp",
+        "date" : "FEBRUARY 26, 2018",
+        "content" : "Five Reasons to Stay at Villa Resort"
+    },
+    {
+        "img" : "./assets/images/api-imgs/img_3.jpg.webp",
+        "date" : "FEBRUARY 26, 2018",
+        "content" : "Five Reasons to Stay at Villa Resort"
+    }
+]

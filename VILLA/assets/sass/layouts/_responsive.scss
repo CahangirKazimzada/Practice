@@ -1,0 +1,41 @@
+@media screen and (max-width: 768px){
+    #production{
+        .container{
+            .production-container{
+                .links{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+                }
+            }
+        }
+    }    
+}
+
+@media screen and (max-width: 550px){
+    main{
+        #slide{
+            .my-container{
+                .slide-mycontainer{
+                    .title{
+                        max-width: 300px;
+                        .big-text{
+                            p{
+                                font-size: 50px;
+                            }
+                        }
+                    }
+                    #carouselExampleIndicators{
+                        .carousel-inner{
+                            .carousel-item{
+                                img{
+                                    width: 100%;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
