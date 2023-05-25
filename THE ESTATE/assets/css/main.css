@@ -1,0 +1,183 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+header {
+  font-family: "Montserrat", sans-serif;
+}
+header nav {
+  width: 100%;
+  position: fixed;
+  padding: 0 30px;
+  background-color: #0e1d41;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+  border-bottom: 1px solid white;
+}
+header nav .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+header nav .container .nav-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+header nav .container .nav-container .title {
+  text-align: center;
+  color: white;
+}
+header nav .container .nav-container .title span {
+  font-size: 25px;
+}
+header nav .container .nav-container .list ul {
+  display: flex;
+  gap: 40px;
+}
+header nav .container .nav-container .list ul li a {
+  color: white;
+  transition: 300ms;
+}
+header nav .container .nav-container .list ul li a:hover {
+  color: #fd784f;
+}
+header nav .container .nav-container .number span {
+  color: white;
+  background-color: #fd784f;
+  padding: 10px 40px;
+}
+header nav .container .nav-container .menu-bar {
+  display: none;
+}
+header nav .container .nav-container .menu-bar i {
+  border: 1px solid;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+header .resp-list {
+  background-color: white;
+  width: 100%;
+  position: absolute;
+  top: 15%;
+  z-index: 1;
+  overflow: hidden;
+  height: 0;
+  font-family: "Montserrat", sans-serif;
+  transition: 300ms;
+}
+header .resp-list .container {
+  max-width: 1100px;
+  margin: 0 auto;
+  width: 100%;
+}
+header .resp-list .container ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+header .resp-list .container ul li a {
+  color: black;
+  font-weight: bold;
+}
+header .open-resp-list {
+  padding: 30px;
+  height: 170px;
+}
+
+main #find-home {
+  background-image: url("/assets/images/home-img/home_slider_bcg.jpg.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main #find-home .container .home-container {
+  padding: 0 20px;
+}
+main #find-home .container .home-container .content h1 {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-size: 92px;
+}
+main #featured {
+  padding: 80px 20px;
+}
+main #featured .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+main #featured .container .featured-container .cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+main #featured .container .featured-container .cards .card-container {
+  cursor: pointer;
+  width: 350px;
+}
+main #featured .container .featured-container .cards .card-container:hover .card-box {
+  box-shadow: 5px 10px 10px 3px;
+}
+main #featured .container .featured-container .cards .card-container .card-box {
+  transition: 300ms;
+}
+main #featured .container .featured-container .cards .card-container .card-box img#main {
+  width: 100%;
+}
+main #featured .container .featured-container .cards .card-container .card-box .parts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+main #featured .container .featured-container .cards .card-container .card-box .places {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+main #featured .container .featured-container .cards .card-container .card-box .places a {
+  color: white;
+  background-color: #fd784f;
+  padding: 5px 10px;
+}
+main #featured .container .featured-container .cards .card-container .sale {
+  margin-top: 20px;
+  background-color: #0e1d41;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  color: white;
+}
+
+@media screen and (max-width: 890px) {
+  header nav .container .nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  header nav .container .nav-container .list {
+    display: none;
+  }
+  header nav .container .nav-container .number {
+    display: none;
+  }
+  header nav .container .nav-container .menu-bar {
+    display: block;
+  }
+  main #find-home .container .home-container .content h1 {
+    font-size: 60px;
+  }
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,35 @@
+@media screen and (max-width: 890px){
+    header{
+        nav{
+            .container{
+                .nav-container{
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    .list{
+                        display: none;
+                    }
+                    .number{
+                        display: none;
+                    }
+                    .menu-bar{
+                        display: block;
+                    }
+                }
+            }
+        }
+    }
+    main{
+        #find-home{
+            .container{
+                .home-container{
+                    .content{
+                        h1{
+                            font-size: 60px;
+                        }
+                    }
+                }
+            }
+        }
+    }    
+}

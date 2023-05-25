@@ -1,0 +1,80 @@
+main{
+    #find-home{
+        background-image: url("/assets/images/home-img/home_slider_bcg.jpg.webp");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .container{
+            .home-container{
+                padding: 0 20px;
+                .content{
+                    h1{
+                        color: white;
+                        font-family: 'Montserrat', sans-serif;
+                        font-size: 92px;
+                    }
+                }
+            }
+        }
+    }
+    #featured{
+        padding: 80px 20px;
+        .container{
+            max-width: 1200px;
+            margin: 0 auto;
+            width: 100%;
+            .featured-container{
+                .cards{
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: space-between;
+                    .card-container{
+                        &:hover .card-box{
+                            box-shadow: 5px 10px 10px 3px;
+                        }
+                        &:hover .sale{
+                            
+                        }
+                        cursor: pointer;
+                        width: 350px;
+                        .card-box{
+                            transition: 300ms;
+                            img#main{
+                                width: 100%;
+                            }
+                            .parts{
+                                display: flex;
+                                flex-wrap: wrap;
+                                gap: 20px;
+                            }
+                            .places{
+                                display: flex;
+                                flex-wrap: wrap;
+                                gap: 10px;
+                                a{
+                                    color: white;
+                                    background-color: #fd784f;
+                                    padding: 5px 10px;
+                                }
+                            }
+                        }
+                        .sale{
+                            margin-top: 20px;
+                            background-color: #0e1d41;
+                            display: flex;
+                            align-items: center;
+                            gap: 20px;
+                            padding: 20px;
+                            color: white;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
