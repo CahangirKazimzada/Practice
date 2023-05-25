@@ -4,3 +4,5 @@ const respList = document.querySelector(".resp-list");
 menuBar.addEventListener("click", () => {
     respList.classList.toggle("open-resp-list");
 })
+
+fetch("")

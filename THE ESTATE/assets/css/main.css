@@ -123,12 +123,16 @@ main #featured .container .featured-container .cards {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  transition: 300ms;
 }
 main #featured .container .featured-container .cards .card-container {
   cursor: pointer;
   width: 350px;
 }
 main #featured .container .featured-container .cards .card-container:hover .card-box {
+  box-shadow: 5px 10px 10px 3px;
+}
+main #featured .container .featured-container .cards .card-container:hover {
   box-shadow: 5px 10px 10px 3px;
 }
 main #featured .container .featured-container .cards .card-container .card-box {
@@ -160,6 +164,7 @@ main #featured .container .featured-container .cards .card-container .sale {
   gap: 20px;
   padding: 20px;
   color: white;
+  transition: 300ms;
 }
 
 @media screen and (max-width: 890px) {

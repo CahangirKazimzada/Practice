@@ -33,12 +33,14 @@ main{
                     display: flex;
                     flex-wrap: wrap;
                     justify-content: space-between;
+                    transition: 300ms;
                     .card-container{
                         &:hover .card-box{
                             box-shadow: 5px 10px 10px 3px;
                         }
-                        &:hover .sale{
-                            
+                        &:hover  {
+                            box-shadow: 5px 10px 10px 3px;
+
                         }
                         cursor: pointer;
                         width: 350px;
@@ -71,6 +73,7 @@ main{
                             gap: 20px;
                             padding: 20px;
                             color: white;
+                            transition: 300ms;
                         }
                     }
                 }
